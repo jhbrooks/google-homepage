@@ -28,3 +28,19 @@
 	position: relative;
 	text-align: right;
 }
+
+#r_head_img a {
+	height: 30px;
+	width: 30px;
+	display: inline-block;
+	background-image: url("imgs/small-image-array.png");
+	background-size: 356px 144px;
+}
+
+#r_head_img a:nth-child(1) {
+	background-position: -326px -52px;
+}
+
+#r_head_img a:nth-child(3) {
+	background-position: -326px -17px;
+}
