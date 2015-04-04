@@ -1,7 +1,7 @@
 #header {
-	padding: inherit;
 	position: absolute;
 	top: 0;
+	width: 100%;
 }
 
 #body {
@@ -39,11 +39,21 @@
 #footer {
 	position: absolute;
 	bottom: 0;
+	width: 100%;
 }
 
 #r_head {
-	position: relative;
-	text-align: right;
+	float: right;
+}
+
+#l_foot {
+	float: left;
+	margin-left: 30px;
+}
+
+#r_foot {
+	float: right;
+	margin-right: 30px;
 }
 
 #l_foot li {
@@ -57,6 +67,14 @@
 #footer a {
 	display: block;
 	width: 120px;
+}
+
+#r_head_txt {
+	display: inline-block;
+}
+
+#r_head_img {
+	display: inline-block;
 }
 
 #r_head_txt li {
