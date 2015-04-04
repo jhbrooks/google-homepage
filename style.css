@@ -5,8 +5,25 @@
 
 #body {
 	position: absolute;
+	height: 190px;
+	width: 538px;
 	top: 50%;
 	left: 50%;
+	margin: -95px -269px;
+}
+
+#search_box {
+	width: 538px;
+}
+
+#body ul {
+	margin-left: 170px;
+	margin-right: 150px;
+}
+
+#body li {
+	display: inline;
+	text-align: center;
 }
 
 #footer {
