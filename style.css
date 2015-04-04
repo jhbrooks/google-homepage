@@ -1,0 +1,30 @@
+#header {
+	position: absolute;
+	top: 0;
+}
+
+#body {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+}
+
+#footer {
+	position: absolute;
+	bottom: 0;
+}
+
+#r_head {
+	position: relative;
+	text-align: right;
+}
+
+#l_foot {
+	position: relative;
+	text-align: left;
+}
+
+#r_foot {
+	position: relative;
+	text-align: right;
+}
