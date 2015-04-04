@@ -19,14 +19,21 @@
 	text-align: right;
 }
 
-#l_foot {
-	position: relative;
-	text-align: left;
+#l_foot li {
+	float: left;
 }
 
-#r_foot {
-	position: relative;
-	text-align: right;
+#r_foot li {
+	float: right;
+}
+
+#footer a {
+	display: block;
+	width: 120px;
+}
+
+#r_head_txt li {
+	display: inline;
 }
 
 #r_head_img a {
