@@ -1,3 +1,8 @@
+body {
+	font-size: 13px;
+	font-family: arial, sans-serif;
+}
+
 #header {
 	position: absolute;
 	top: 0;
@@ -78,7 +83,7 @@
 }
 
 #body ul {
-	margin: 8px 150px;
+	margin: 8px 145px;
 }
 
 #body li {
@@ -91,7 +96,8 @@
 	border: 1px solid #dddddd;
 	background-color: #eeeeee;
 	padding: 5px 10px;
-	font-size: 10px;
+	font-family: arial, sans-serif;
+	font-size: 11px;
 	font-weight: bold;
 }
 
