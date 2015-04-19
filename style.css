@@ -6,13 +6,8 @@ body {
 #header {
 	position: absolute;
 	top: 0;
+	height: 62px;
 	width: 100%;
-}
-
-#header a {
-	margin: 5px 5px;
-	text-decoration: none;
-	color: black;
 }
 
 #r_head {
@@ -21,16 +16,22 @@ body {
 	margin-right: 30px;
 }
 
-#r_head_txt {
-	display: inline-block;
+#r_head a {
+	margin: 5px;
+	text-decoration: none;
+	color: black;
 }
 
-#r_head_img {
+#r_head_txt {
 	display: inline-block;
 }
 
 #r_head_txt li {
 	display: inline;
+}
+
+#r_head_img {
+	display: inline-block;
 }
 
 #r_head_img a {
