@@ -22,6 +22,14 @@ body {
 	color: black;
 }
 
+#r_head a:hover {
+	text-decoration: underline;
+}
+
+#r_head a:focus {
+	text-decoration: underline;
+}
+
 #r_head_txt {
 	margin: 0px 1px;
 	float: right;
@@ -93,6 +101,10 @@ body {
 	font-size: 16px;
 }
 
+#search_box:focus {
+	border: 1px solid #4d90fe;
+}
+
 #body ul {
 	margin: 8px 145px;
 }
@@ -106,6 +118,7 @@ body {
 #body form li input {
 	border: 1px solid #e4e4e4;
 	background-color: #f2f2f2;
+	border-radius: 2px;
 	padding: 5px 10px;
 	font-family: arial, sans-serif;
 	font-size: 11px;
@@ -128,6 +141,10 @@ body {
 	display: block;
 	width: 80px;
 	margin: 1px;
+}
+
+#footer a:hover {
+	text-decoration: underline;
 }
 
 #l_foot {
